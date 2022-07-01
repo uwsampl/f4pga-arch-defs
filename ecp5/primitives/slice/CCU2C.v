@@ -4,8 +4,8 @@ module CCU2C(input CIN, A0, B0, C0, D0, A1, B1, C1, D1,
 
 	parameter [15:0] INIT0 = 16'h0000;
 	parameter [15:0] INIT1 = 16'h0000;
-	parameter INJECT1_0 = "YES";
-	parameter INJECT1_1 = "YES";
+	parameter string INJECT1_0 = "YES";
+	parameter string INJECT1_1 = "YES";
 
 	// First half
 	wire LUT4_0, LUT2_0;
